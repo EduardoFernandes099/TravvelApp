@@ -8,37 +8,43 @@
         <Frame BorderColor="Black" CornerRadius="0" HasShadow="False">
             <Grid>
                 <Grid.RowDefinitions>
-                    
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-
-                
                 <BoxView Grid.Row="0" Color="White" HeightRequest="40" />
                 <Label Grid.Row="0" Text="Feed" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" FontSize="30" FontFamily="Grotesque"/>
             </Grid>
         </Frame>
         <VerticalStackLayout Padding="10">
             <Frame BackgroundColor="#009D86" Padding="0" HeightRequest="100" CornerRadius="0">
-                <Button  BackgroundColor="Transparent" 
-                         Text="Criar Publicação" 
-                         Clicked="OnNovaPostagemClicked"
-                         VerticalOptions="CenterAndExpand" 
-                         HorizontalOptions="CenterAndExpand" 
-                         TextColor="White" 
-                         FontSize="30" 
-                         FontFamily="Grotesque"
-                         CornerRadius="0" >
-                    
+                <Button BackgroundColor="Transparent" 
+                        Text="Criar Publicação" 
+                        Clicked="OnNovaPostagemClicked"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" 
+                        TextColor="White" 
+                        FontSize="30" 
+                        FontFamily="Grotesque"
+                        CornerRadius="0" >
                 </Button>
             </Frame>
-            <VerticalStackLayout>
-                <Label Margin="10" 
-                Text="{Binding UserName}"
-                FontFamily="Grotesque"
-                FontSize="20"/>
-            </VerticalStackLayout>
+            <!-- Lista de publicações -->
+            <ListView ItemsSource="{Binding Postagens}" VerticalOptions="FillAndExpand">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10" BackgroundColor="#F0F0F0">
+                                <!-- Exibição da imagem -->
+                                <Image Source="{Binding ImagemPath}" HeightRequest="100" WidthRequest="100" />
 
-
+                                <!-- Detalhes da publicação -->
+                                <Label Text="{Binding Titulo}" FontAttributes="Bold" />
+                                <Label Text="{Binding Descricao}" />
+                                <!-- Outros detalhes da publicação -->
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </VerticalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
