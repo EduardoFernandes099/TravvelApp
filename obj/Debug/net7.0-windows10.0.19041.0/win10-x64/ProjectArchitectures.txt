@@ -1,0 +1,1 @@
+D:\TravelApp\ViajeiD+\ViajeiD+.csproj;x64

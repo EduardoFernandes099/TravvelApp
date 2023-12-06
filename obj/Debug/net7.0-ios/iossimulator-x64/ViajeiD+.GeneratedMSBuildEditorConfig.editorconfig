@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ViajeiD_
+build_property.ProjectDir = C:\Users\Eduar\OneDrive\Área de Trabalho\a\ViajeiD+\ViajeiD+\
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/View/CadastroUserView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.View.CadastroUserView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CadastroUserView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CadastroUserView.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/View/FeedView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.View.FeedView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\FeedView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\FeedView.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/View/HomePrincipalView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.View.HomePrincipalView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\HomePrincipalView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\HomePrincipalView.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/View/LoginUsuarioView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.View.LoginUsuarioView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LoginUsuarioView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LoginUsuarioView.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/View/LogoutView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.View.LogoutView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LogoutView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LogoutView.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/View/NovaPostagemForm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.View.NovaPostagemForm.xaml
+build_metadata.AdditionalFiles.TargetPath = View\NovaPostagemForm.xaml
+build_metadata.AdditionalFiles.RelativePath = View\NovaPostagemForm.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/View/NovoDestinoForm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.View.NovoDestinoForm.xaml
+build_metadata.AdditionalFiles.TargetPath = View\NovoDestinoForm.xaml
+build_metadata.AdditionalFiles.RelativePath = View\NovoDestinoForm.xaml
+
+[C:/Users/Eduar/OneDrive/Área de Trabalho/a/ViajeiD+/ViajeiD+/View/ViagensView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ViajeiD_.View.ViagensView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ViagensView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ViagensView.xaml
