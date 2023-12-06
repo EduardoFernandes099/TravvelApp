@@ -1,34 +1,51 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ViajeiD_.Model;
 
 namespace ViajeiD_.ViewModel
 {
-    // ViewModel básico
-    public class FeedViewModel : BindableObject
+    public class FeedViewModel : INotifyPropertyChanged
     {
-        private string _userName;
+        private List<PostagemPub> _postagens;
 
-        public string UserName
+        public List<PostagemPub> Postagens
         {
-            get { return _userName; }
+            get { return _postagens; }
             set
             {
-                if (_userName != value)
+                if (_postagens != value)
                 {
-                    _userName = value;
-                    OnPropertyChanged(nameof(UserName));
+                    _postagens = value;
+                    OnPropertyChanged(nameof(Postagens));
                 }
             }
         }
 
-        // Constructor (pode conter lógica de inicialização)
         public FeedViewModel()
         {
-            // Pode inicializar UserName com um valor padrão se necessário
-            UserName = App.Usuario.NomeUsuario;
+            // Inicializa a lista de postagens
+            Postagens = new List<PostagemPub>();
         }
+
+        // Método para definir as postagens no ViewModel
+        public void SetPostagens(List<PostagemPub> postagens)
+        {
+            Postagens = postagens.OrderByDescending(p => p.Data).ToList();
+        }
+
+        // Implementação da interface INotifyPropertyChanged
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        protected virtual void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public void NotifyPostagensChanged()
+        {
+            OnPropertyChanged(nameof(Postagens));
+        }
+
     }
 }

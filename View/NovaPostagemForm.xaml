@@ -88,7 +88,7 @@
         <Frame BackgroundColor="#009D86" Padding="0" HeightRequest="100" CornerRadius="0">
             <Button  BackgroundColor="Transparent"
                      Text="Postar"
-                     Clicked="OnSavePhotoClicked"
+                     Clicked="btnPostarClicked"
                      VerticalOptions="CenterAndExpand"
                      HorizontalOptions="CenterAndExpand"
                      TextColor="White"

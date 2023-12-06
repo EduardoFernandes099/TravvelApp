@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eduar\\OneDrive\\Área de Trabalho\\a\\ViajeiD+\\ViajeiD+\\ViajeiD+.csproj": {}
+    "D:\\TravelApp\\ViajeiD+\\ViajeiD+.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eduar\\OneDrive\\Área de Trabalho\\a\\ViajeiD+\\ViajeiD+\\ViajeiD+.csproj": {
+    "D:\\TravelApp\\ViajeiD+\\ViajeiD+.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eduar\\OneDrive\\Área de Trabalho\\a\\ViajeiD+\\ViajeiD+\\ViajeiD+.csproj",
+        "projectUniqueName": "D:\\TravelApp\\ViajeiD+\\ViajeiD+.csproj",
         "projectName": "ViajeiD+",
-        "projectPath": "C:\\Users\\Eduar\\OneDrive\\Área de Trabalho\\a\\ViajeiD+\\ViajeiD+\\ViajeiD+.csproj",
+        "projectPath": "D:\\TravelApp\\ViajeiD+\\ViajeiD+.csproj",
         "packagesPath": "C:\\Users\\Eduar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eduar\\OneDrive\\Área de Trabalho\\a\\ViajeiD+\\ViajeiD+\\obj\\",
+        "outputPath": "D:\\TravelApp\\ViajeiD+\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

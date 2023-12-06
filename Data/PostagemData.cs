@@ -1,65 +1,35 @@
 ﻿using SQLite;
 using ViajeiD_.Model;
-using ViajeiD_.View;
 
 namespace ViajeiD_.Data
 {
     public class PostagemData
     {
-
         private SQLiteAsyncConnection _conexaoBD;
 
         public PostagemData(SQLiteAsyncConnection conexaoBD)
         {
-            _conexaoBD = conexaoBD;
+            _conexaoBD = conexaoBD ?? throw new ArgumentNullException(nameof(conexaoBD));
         }
 
-
-        public Task<List<PostagemPub>> ListaPostagem()
+        public async Task<List<PostagemPub>> ListaPostagem()
         {
-            var lista = _conexaoBD
-                .Table<PostagemPub>()
-                .ToListAsync();
-            return lista;
-
+            return await _conexaoBD.Table<PostagemPub>().ToListAsync();
         }
 
         public async Task<int> SalvaPostagem(PostagemPub postagem)
         {
-
             return await _conexaoBD.InsertAsync(postagem);
-
         }
 
-
-
-
-        public Task<PostagemPub> ObtemUsuarioId(Guid Id)
+        public async Task<PostagemPub> ObtemPostagemPorId(Guid id)
         {
-            var usuario = _conexaoBD
-                .Table<PostagemPub>()
-                .Where(x => x.Id == Id)
-                .FirstOrDefaultAsync();
-            return usuario;
-
-
+            return await _conexaoBD.Table<PostagemPub>().FirstOrDefaultAsync(x => x.Id == id);
         }
 
-
-
-        public async Task<int> ExcluirUsuario(Guid id)
+        public async Task<int> ExcluirPostagem(Guid id)
         {
-            return await _conexaoBD.DeleteAsync(id);
-        }
-
-        internal Task<int> SalvaPostagem(NovaPostagemForm npostagem)
-        {
-            throw new NotImplementedException();
-        }
-
-        internal Task ObtemPub(object destino)
-        {
-            throw new NotImplementedException();
+            return await _conexaoBD.DeleteAsync<PostagemPub>(id);
         }
     }
 }
