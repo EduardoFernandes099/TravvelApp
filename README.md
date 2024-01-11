@@ -1,4 +1,5 @@
 ViajeiD+
+
 Descrição
 Este é um aplicativo mobile desenvolvido como parte do meu projeto de faculdade. O aplicativo foi construído utilizando .NET MAUI e segue os princípios do Kanban como metodologia ágil para o gerenciamento de projetos.
 
